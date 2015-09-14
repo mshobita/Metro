@@ -63,24 +63,24 @@ function getlang(sel) {
 	alert(sel.value);
 	//TODO
  }
-function getSRCstation(sel) {
-	alert("SRC");
-	alert(sel.value);
-	var LongLat = get_station(sel.value);//from DB
-	alert(LongLat.Longitude);
-	alert(LongLat.Latitude);
-	//TODO
+// function getSRCstation(sel) {
+// 	alert("SRC");
+// 	alert(sel.value);
+// 	var LongLat = get_station(sel.value);//from DB
+// 	alert(LongLat.Longitude);
+// 	alert(LongLat.Latitude);
+// 	//TODO
     
- }
-function getDSTstation(sel) {
-	alert("DST");
-	alert(sel.value);
-	var LongLat = get_station(sel.value);//from DB
-	alert(LongLat.Longitude);
-	alert(LongLat.Latitude);
-	return LongLat;
-	//TODO
- }
+//  }
+// function getDSTstation(sel) {
+// 	alert("DST");
+// 	alert(sel.value);
+// 	var LongLat = get_station(sel.value);//from DB
+// 	alert(LongLat.Longitude);
+// 	alert(LongLat.Latitude);
+// 	return LongLat;
+// 	//TODO
+//  }
 
 //Change mode
 /*function getmode()
